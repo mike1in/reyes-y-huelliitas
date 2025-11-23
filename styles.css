@@ -1,0 +1,320 @@
+/* ===========================
+   RESET Y BASE
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ===========================
+   HERO PRINCIPAL
+=========================== */
+
+.hero {
+  background: linear-gradient(135deg, #e17d6c 0%, #d86b5a 100%);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.2rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.hero-prof {
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.paw-icon {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+/* ===========================
+   SECCIÓN SERVICIOS VET
+=========================== */
+
+.highlight-section {
+  background: linear-gradient(135deg, #fff1eb, #ffe3d9);
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.highlight-section:hover {
+  transform: scale(1.01);
+}
+
+.intro h2 {
+  color: #d86b5a;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* ===========================
+   SERVICIOS
+=========================== */
+
+.services {
+  padding: 3rem 1rem;
+  background-color: white;
+}
+
+.services h2 {
+  text-align: center;
+  color: #6b4e3d;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.service-card {
+  background-color: #8b6f5c;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ===========================
+   PAQUETES
+=========================== */
+
+.packages {
+  background: linear-gradient(135deg, #f5e6d3 0%, #ffe8d6 100%);
+  padding: 3rem 1rem;
+}
+
+.packages h2 {
+  text-align: center;
+  color: #6b4e3d;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.package-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.package-card:hover {
+  transform: scale(1.05);
+}
+
+.package-title {
+  color: #d86b5a;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.package-subtitle {
+  color: #6b4e3d;
+  font-size: 1.2rem;
+}
+
+.package-price {
+  color: #8b6f5c;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 1.2rem 0;
+}
+
+.package-features {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.package-features li {
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  position: relative;
+  color: #555;
+}
+
+.package-features li::before {
+  content: "🐾";
+  position: absolute;
+  left: 0;
+}
+
+/* ===========================
+   BAÑO
+=========================== */
+
+.bath-section {
+  background: linear-gradient(135deg, #ffd4e5 0%, #fff5e1 100%);
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.bath-section h2 {
+  color: #4169e1;
+  font-size: 2.5rem;
+}
+
+.bath-formula {
+  font-size: 1.3rem;
+  color: #4169e1;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1fb75b;
+  transform: scale(1.05);
+}
+
+.btn-large {
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+}
+
+/* ===========================
+   CTA MEJORADA
+=========================== */
+
+.enhanced-cta {
+  background: linear-gradient(135deg, #6b4e3d, #8b6f5c);
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cta-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer-enhanced {
+  background: #4a3428;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.footer-enhanced .small {
+  margin-top: 1rem;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+/* ===========================
+   WHATSAPP FLOTANTE
+=========================== */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .package-price {
+    font-size: 2rem;
+  }
+}
+
